@@ -3,7 +3,7 @@ printError() {
   printf '\E[31m'; echo "$@"; printf '\E[0m'
 }
 
-#Function to print yellow error text in terminal
+#Function to print yellow warning text in terminal
 printWarning() {
   printf '\E[33m'; echo "$@"; printf '\E[0m'
 }
